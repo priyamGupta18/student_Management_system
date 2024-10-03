@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    background-color: bisque;
+    border-radius: 6px;
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+}
+#inputContainer{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+input{
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+#genderSelect{
+    height: 25px;
+    width: 40%;
+    border-radius: 5px;
+}
+#add{
+    padding: 10px 18px;
+    font-size: 16px;
+    background-color: rgb(83, 83, 55);
+    color: aliceblue;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+#add:hover{
+    background-color: rgb(62, 62, 47);
+}
+#list{
+    margin: 10px 20px;
+}
+#list button{
+    padding: 7px 15px;
+    background-color: rgb(244, 104, 104);
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+#list button:hover{
+    background-color: rgb(247, 122, 122);
+}
+#stlist{
+    width: 90%;
+    /* background-color: rgb(127, 90, 90); */
+    margin: auto;
+}
+thead{
+    background-color: rgb(127, 90, 90);
+    color: white;
+    height: 30px;
+}
+thead:hover{
+    background-color: rgb(138, 105, 95);
+}
+tbody{
+    background-color: aliceblue;
+}
